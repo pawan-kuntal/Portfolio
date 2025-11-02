@@ -1,0 +1,101 @@
+.home-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.home-container2 {
+  display: none;
+}
+ 
+.home-container3 {
+  display: contents;
+}
+ 
+.home-heroname {
+  display: inline-block;
+  background: linear-gradient(
+      135deg,
+      var(--color-primary),
+      var(--color-accent)
+    );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+ 
+.home-skillsproficiency-bar1 {
+  width: 95%;
+}
+ 
+.home-skillsproficiency-bar2 {
+  width: 75%;
+}
+ 
+.home-skillsproficiency-bar3 {
+  width: 92%;
+}
+ 
+.home-skillsproficiency-bar4 {
+  width: 90%;
+}
+ 
+.home-skillsproficiency-bar5 {
+  width: 88%;
+}
+ 
+.home-skillsproficiency-bar6 {
+  width: 85%;
+}
+ 
+.home-container4 {
+  display: none;
+}
+ 
+.home-container5 {
+  display: contents;
+}
+ 
+.home-container6 {
+  display: none;
+}
+ 
+.home-container7 {
+  display: contents;
+}
+ 
+
+/* About section */
+.about {
+  padding: 80px 0;
+}
+.about__container {
+  width: min(1100px, 92%);
+  margin: 0 auto;
+}
+.about__card {
+  background: radial-gradient(1200px 400px at 10% 10%, rgba(255,255,255,0.04), transparent),
+              linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
+  border: 1px solid rgba(255,255,255,0.07);
+  box-shadow: var(--shadow-level-2, 0 10px 30px rgba(0,0,0,0.35));
+  border-radius: 16px;
+  padding: 28px 28px 24px;
+}
+.about__card p {
+  font-size: 1.05rem;
+  line-height: 1.9;
+  color: var(--color-on-surface);
+  opacity: 0.95;
+  margin: 0 0 18px;
+}
+.about__accent {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+/* Center About heading */
+.about__container .section-title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}

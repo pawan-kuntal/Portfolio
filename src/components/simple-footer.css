@@ -1,0 +1,28 @@
+/* Minimal footer styling */
+.simple-footer {
+  width: 100%;
+  padding: 24px 16px 40px;
+  text-align: center;
+  color: var(--color-on-surface);
+  background: transparent;
+}
+
+.simple-footer__line {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 8px;
+}
+
+.simple-footer__heart {
+  color: var(--color-primary);
+  margin: 0 6px;
+}
+
+.simple-footer__name {
+  color: var(--color-primary);
+}
+
+.simple-footer__copyright {
+  font-size: 0.85rem;
+  opacity: 0.75;
+}
