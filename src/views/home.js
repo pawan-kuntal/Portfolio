@@ -560,6 +560,22 @@ const Home = (props) => {
                     <span className="experience__tech">State Management</span>
                   </div>
                   <div className="experience__card-actions">
+                    <a href="https://ai-image-enhancer123.netlify.app" target="_blank" rel="noreferrer">
+                      <div
+                        aria-label="View live demo"
+                        className="btn btn-primary btn-sm"
+                      >
+                        <span>
+                          {' '}
+                          View Demo
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                      </div>
+                    </a>
                     <a href="https://github.com/pawan-kuntal?tab=repositories">
                       <div
                         aria-label="View code repository"
@@ -638,6 +654,22 @@ const Home = (props) => {
                     <span className="experience__tech">Material UI</span>
                   </div>
                   <div className="experience__card-actions">
+                    <a href="https://baby-voice-assistant.netlify.app" target="_blank" rel="noreferrer">
+                      <div
+                        aria-label="View live demo"
+                        className="btn btn-primary btn-sm"
+                      >
+                        <span>
+                          {' '}
+                          View Demo
+                          <span
+                            dangerouslySetInnerHTML={{
+                              __html: ' ',
+                            }}
+                          />
+                        </span>
+                      </div>
+                    </a>
                     <a href="https://github.com/pawan-kuntal?tab=repositories">
                       <div
                         aria-label="View code repository"
